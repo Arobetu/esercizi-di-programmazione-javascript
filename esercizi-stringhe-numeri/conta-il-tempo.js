@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Value = prompt ("insert the number of seconds");
+
+var Hours = Math.floor (Value/3600)%60;
+var Minutes = Math.floor (Value/60)%60;
+var Seconds = Math.floor (Value%60);
+
+
+console.log(Hours +'hours',Minutes +'minutes',Seconds +'seconds');
