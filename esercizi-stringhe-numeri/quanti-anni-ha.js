@@ -19,4 +19,4 @@ var Age = (Year-Birth);
 console.log('you are' ,Age, 'years old');
 
 var Undred = (100-Age);
-console.log('you get left' ,Undred, 'years to be 100');
+console.log('you miss' ,Undred, 'years to be 100');
