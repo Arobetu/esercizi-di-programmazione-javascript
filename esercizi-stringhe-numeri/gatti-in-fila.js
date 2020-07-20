@@ -1,4 +1,4 @@
-/*
+9/*
   Gatti in fila
   Scrivi un programma che dato:
     a) Un numero totale di gatti
@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Cats = 9;
+var NCatsinLine = 2;
+
+var Lines = Math.ceil (Cats/NCatsinLine);
+var Rest = (NCatsinLine*Lines)-Cats;
+
+console.log(Lines,Rest);
