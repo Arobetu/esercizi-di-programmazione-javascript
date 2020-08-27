@@ -21,3 +21,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var a = '1';
+var b = '2';
+var c = '3';
+var d = '4';
+
+var q = prompt ('Per favore, seleziona il numero corrispondente al dessert che vuoi ordinare. \n\n Menù: \n 1. Pàrdulas \n 2. Seada \n 3. Mustatzolus \n 4. Pirichittus');
+
+if (q===a) alert ('Hai ordinato Pàrdulas');
+else if (q===b) alert ('Hai ordinato una Seada');
+else if (q===c) alert ('Hai ordinato Mustatzolus');
+else if (q===d) alert ('Hai ordinato Pirichittus');
+else alert ('Il dessert che hai selezionato non è disponibile');
