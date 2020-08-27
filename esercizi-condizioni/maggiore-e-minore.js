@@ -10,3 +10,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var a = prompt ('Insert first number');
+var b = prompt ('insert second number');
+var c = prompt ('Insert third number');
+var d = prompt ('Insert fourth number');
+
+alert ('the bigger number is ' + Math.max (a, b, c, d));
+alert ('the smaller number is ' + Math.min (a, b, c, d));
+
+//document.write ('the bigger number is ' + Math.max (a, b, c, d) + ' the smaller number is ' + Math.min (a, b, c, d));
