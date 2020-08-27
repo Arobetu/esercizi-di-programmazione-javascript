@@ -9,3 +9,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Sun = 5;
+var Mon = 8;
+var Tue = 4;
+var Wed = -2;
+var Thu = 3;
+var Fri = 7;
+var Sat = 10;
+
+console.log ( 'The hottest day is ' + Math.max(Sun, Mon, Tue, Wed, Thu, Fri, Sat) + ' degrees. The coldest day is ' + Math.min (Sun, Mon, Tue, Wed, Thu, Fri, Sat) + ' degrees.');
