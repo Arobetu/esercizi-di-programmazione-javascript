@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var num = prompt ('Write something');
+
+document.write ('This string is ' + num.length + ' digits long');
