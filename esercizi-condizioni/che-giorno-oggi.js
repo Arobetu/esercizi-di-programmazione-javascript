@@ -22,3 +22,32 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var week = prompt('Inserisci un valore corrispondente al giorno della settimana');
+
+switch (week) {
+  case '1':
+    alert ('Lunedì');
+    break;
+  case '2':
+    alert ('Martedì');
+    break;
+  case '3':
+    alert ('Mercoledì');
+    break;
+  case '4':
+    alert ('Giovedì');
+    break;
+  case '5':
+    alert ('Venerdì');
+    break;
+  case '6':
+    alert ('Sabato');
+    break;
+  case '7':
+    alert ('Domenica');
+    break;
+  default:
+    alert ('Nessuna corrispondenza');
+
+}
