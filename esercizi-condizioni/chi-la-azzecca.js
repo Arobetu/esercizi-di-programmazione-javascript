@@ -33,7 +33,7 @@ if (Player1 === RandomNumber) {
           if (Player2 === RandomNumber){
           alert ('Numero uscito = ' + RandomNumber + '. Il giocatore 2 ha indovinato il numero');
           if (Player1 > 100 || Player2 > 100){
-          alert ('Numero superiore, ricarica la pagina');
+          alert ('Il numero inserito non deve superare 100, ricarica la pagina');
 }}}else { alert ('Nessun giocatore ha indovinato il numero ' + RandomNumber);
 }
 
