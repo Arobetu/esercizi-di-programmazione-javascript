@@ -35,7 +35,7 @@ StopGame: if (Player1 === RandomNumber) {
           }} else if (Player1 > 100 || Player2 > 100){
           alert ('Il numero inserito non deve essere superiore a 100, prova ancora');
           document.write ('Premi F5 per giocare di nuovo');
-          break StopGame;
+     break StopGame;
           }else { alert ('Nessun giocatore ha indovinato il numero ' + RandomNumber);
           if (difOne < difTwo) {
           document.write ('Il giocatore 1 ha scelto ' + Player1 +'<br/>'+ 'Il giocatore 2 ha scelto ' + Player2 +'<br/>'+ 'Il numero da indovinare era ' + RandomNumber +'<br/>'+ 'Il giocatore 1 si è avvicinato di più al risultato');
