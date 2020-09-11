@@ -8,3 +8,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var number = prompt ('Inserisci il numero di cui calcolare la tabellina: ' + '\n');
+var accumulator = 0;
+
+for (var i = 0; i <= 10; i++) {
+
+  accumulator = (accumulator+ (i*number) + ' ');
+
+} console.log(accumulator);
