@@ -14,3 +14,25 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var roll1 = Math.floor (Math.random() * (6-1) + 1);
+var roll2 = Math.floor (Math.random() * (6-1) + 1);
+var roll3 = Math.floor (Math.random() * (6-1) + 1);
+
+var roll4 = Math.floor (Math.random() * (6-1) + 1);
+var roll5 = Math.floor (Math.random() * (6-1) + 1);
+var roll6 = Math.floor (Math.random() * (6-1) + 1);
+
+var Player1 = Math.abs (roll1 + roll2 + roll3);
+var Player2 = Math.abs (roll4 + roll5 + roll6);
+
+if (Player1 > Player2) {
+    console.log('Player 1: ' + (roll1 +'-'+ roll2 +'-'+ roll3) + ', score: ' + Player1 +'\n'+ 'Player 2: ' + (roll4 +'-'+ roll5 +'-'+ roll6) + ', score: ' + Player2 +'\n'+ 'Player 1 WON')
+
+
+    if (Player2 > Player1)
+    console.log('Player 1: ' + (roll1 +' '+ roll2 +' '+ roll3) + ', score: ' + Player1 + '\n' + 'Player 2: ' + (roll4 +'-'+ roll5 +'-'+ roll6) + ', score: ' + Player2 + '\n' + 'Player 2 WON');
+
+} else {
+    console.log('Player 1: ' + Player1 + '\n' + 'Player 2: ' + Player2 + '\n' + 'TIE');
+}
